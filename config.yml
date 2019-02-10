@@ -1,0 +1,13 @@
+app:
+  parallelism: 3
+  shutdownTimeoutSeconds: 30
+kafka:
+  group: "local-group-name"
+  input-topic: "input-topic"
+  output-topic: "output-topic"
+  brokers: ["localhost:9092"]
+nats:
+  input-channel: "input-channel"
+  output-channel: "output-channel"
+  cluster-id: "test-cluster"
+  group: "local-group-name"
