@@ -3,7 +3,7 @@
 build-ectl: 
 	cd cmd/ectl && go build && mv ectl ../..
 build-kafka-consumer: 
-	cd cmd/kafka-consumer-2 && go build && mv kafka-consumer ../..
+	cd cmd/kafka-consumer-1 && go build && mv kafka-consumer-1 ../../kafka-consumer
 build-kafka-app: 
 	cd cmd/kafka-app && go build && mv kafka-app ../..
 build-goka: 
